@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
-import Applicants from "../page/Applicants";
-import Navbar from "../component/Navbar";
-import Jobs from "../page/Jobs";
-import Auth from "../page/Auth";
-import PrivateRoute from "../page/PrivateRoute";
+import Applicants from "./page/Applicants";
+import Navbar from "./component/Navbar";
+import Jobs from "./page/Jobs";
+import Auth from "./page/Auth";
+
 function App() {
   const [count, setCount] = useState(0);
 
