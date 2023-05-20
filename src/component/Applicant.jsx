@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Button from "./Button";
 import axios from "axios";
-import { useAppContext } from "../../client/src/context/appContext";
+import { useAppContext } from "../context/appContext";
 const Applicant = (props) => {
   const { userRole, fetchApplicantBegin, showAppDetail, fetchAppDetail } =
     useAppContext();

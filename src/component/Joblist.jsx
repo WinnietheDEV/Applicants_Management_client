@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Job from "./Job";
 import { useEffect } from "react";
 import axios from "axios";
-import { useAppContext } from "../src/context/appContext";
+import { useAppContext } from "../context/appContext";
 const Joblist = () => {
   const [jobs, setJobs] = useState([]);
   const { isFetchJobs } = useAppContext();

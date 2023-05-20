@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Button from "./Button";
-import { useAppContext } from "../src/context/appContext";
+import { useAppContext } from "../context/appContext";
 const Navbar = () => {
   const { logOut } = useAppContext();
   return (

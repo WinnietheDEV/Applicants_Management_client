@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import axios from "axios";
-import { useAppContext } from "../src/context/appContext";
+import { useAppContext } from "../context/appContext";
 const FormPostJob = () => {
   const descriptionRef = useRef("");
   const titleRef = useRef("");

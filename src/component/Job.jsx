@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 import { Link } from "react-router-dom";
 import ApplyForm from "./ApplyForm";
-import { useAppContext } from "../src/context/appContext";
+import { useAppContext } from "../context/appContext";
 import axios from "axios";
 const Job = (prop) => {
   const {
