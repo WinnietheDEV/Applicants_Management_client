@@ -41,7 +41,7 @@ const Applicant = (props) => {
                 e.preventDefault();
                 try {
                   const response = await axios.delete(
-                    `http://localhost:3000/tofu/applicants/${applicantId}`
+                    `https://applicants-management-server.onrender.com/tofu/applicants/${applicantId}`
                   );
                   fetchApplicantBegin();
                 } catch (error) {

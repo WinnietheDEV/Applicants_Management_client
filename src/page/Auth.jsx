@@ -22,8 +22,10 @@ const Auth = () => {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
 
-  const urlLogin = "http://localhost:3000/tofu/auth/login";
-  const urlRegister = "http://localhost:3000/tofu/auth/register";
+  const urlLogin =
+    "https://applicants-management-server.onrender.com/tofu/auth/login";
+  const urlRegister =
+    "https://applicants-management-server.onrender.com/tofu/auth/register";
 
   const postLogIn = () => {
     const data = {

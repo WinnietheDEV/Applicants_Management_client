@@ -8,7 +8,9 @@ const Applicants = () => {
   const { isFetchApplicants, userRole } = useAppContext();
   const fetchApplicants = async () => {
     try {
-      const response = await axios(`http://localhost:3000/tofu/applicants`);
+      const response = await axios(
+        `https://applicants-management-server.onrender.com/tofu/applicants`
+      );
       const fetchedUsers = await response.data.users;
       const fetchedJobs = await response.data.jobs;
       const fetchedApplication = await response.data.applicants;

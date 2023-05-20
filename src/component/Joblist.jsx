@@ -8,7 +8,9 @@ const Joblist = () => {
   const { isFetchJobs } = useAppContext();
   const fetchJobs = async () => {
     try {
-      const response = await axios(`http://localhost:3000/tofu/jobs`);
+      const response = await axios(
+        `https://applicants-management-server.onrender.com/tofu/jobs`
+      );
       const fetchedJobs = await response.data;
       setJobs(fetchedJobs);
     } catch (error) {

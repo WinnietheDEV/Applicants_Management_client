@@ -22,7 +22,7 @@ const FormPostJob = () => {
           };
 
           const response = await axios.post(
-            `http://localhost:3000/tofu/jobs`,
+            `https://applicants-management-server.onrender.com/tofu/jobs`,
             data
           );
           postJobBegin();

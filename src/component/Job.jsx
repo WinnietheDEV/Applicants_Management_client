@@ -23,7 +23,7 @@ const Job = (prop) => {
       };
 
       const response = await axios.post(
-        `http://localhost:3000/tofu/applicants`,
+        `https://applicants-management-server.onrender.com/tofu/applicants`,
         data
       );
     } catch (error) {
